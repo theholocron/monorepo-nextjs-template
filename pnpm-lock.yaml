@@ -19,7 +19,7 @@ catalogs:
       specifier: ^7.16.0
       version: 7.16.0
     '@theholocron/prettier-config':
-      specifier: ^7.17.0
+      specifier: ^7.16.0
       version: 7.17.0
     '@theholocron/semantic-release-config':
       specifier: ^7.16.0
