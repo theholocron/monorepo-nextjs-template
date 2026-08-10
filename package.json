@@ -14,6 +14,7 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@eslint/js": "catalog:",
     "@theholocron/cli": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
@@ -24,6 +25,11 @@
     "@theholocron/prettier-config": "catalog:configs",
     "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/skills": "catalog:configs",
+    "@theholocron/tsconfig": "catalog:configs",
+    "eslint": "catalog:",
+    "eslint-plugin-n": "catalog:",
+    "eslint-plugin-simple-import-sort": "catalog:",
+    "globals": "catalog:",
     "husky": "catalog:",
     "knip": "catalog:",
     "lint-staged": "catalog:",
@@ -31,7 +37,8 @@
     "semantic-release": "catalog:",
     "sort-package-json": "catalog:",
     "turbo": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
   },
   "packageManager": "pnpm@10.33.0",
   "engines": {

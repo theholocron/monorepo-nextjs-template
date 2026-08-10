@@ -20,7 +20,7 @@ const config: Linter.Config[] = [
 			"n/no-missing-import": "off",
 		},
 	},
-	{ ignores: ["dist/**", "coverage/**", ".next/**", "out/**", "storybook-static/**"] },
+	{ ignores: ["dist/**", "coverage/**", ".next/**", "out/**", "storybook-static/**", "public/**"] },
 ];
 
 export default config;
