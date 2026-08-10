@@ -2,13 +2,16 @@
 # Source:  theholocron/holocron · packages/cli/src/commands/setup-workflows.ts
 # Tool:    holocron setup
 # Changes: run `holocron setup` to regenerate.
-name: Deploy Docs
+name: Deploy Storybook
 
 on: # yamllint disable-line rule:truthy
   push:
     branches: [main]
     paths:
-      - docs/**
+      - src/**
+      - .storybook/**
+      - apps/web/src/**
+      - apps/web/.storybook/**
   workflow_dispatch:
 
 concurrency:
@@ -21,10 +24,7 @@ permissions:
   id-token: write
 
 jobs:
-  deploy-docs:
-    name: Deploy Docs
-    uses: theholocron/.github/.github/workflows/deploy-docs.yml@main
-    with:
-      name: monorepo-nextjs-template
-      skip-content: true
+  deploy-storybook:
+    name: Deploy Storybook
+    uses: theholocron/.github/.github/workflows/deploy-storybook.yml@main
     secrets: inherit

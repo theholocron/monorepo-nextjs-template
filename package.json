@@ -1,8 +1,8 @@
 {
   "name": "@theholocron/monorepo-nextjs-template",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --concurrency=10",
@@ -15,10 +15,11 @@
   },
   "devDependencies": {
     "@theholocron/cli": "catalog:holocron",
-    "@theholocron/holocron-plugin-github": "catalog:holocron",
-    "@theholocron/holocron-plugin-vercel": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
+    "@theholocron/holocron-config": "catalog:configs",
+    "@theholocron/holocron-plugin-github": "catalog:holocron",
+    "@theholocron/holocron-plugin-vercel": "catalog:holocron",
     "@theholocron/lint-staged-config": "catalog:configs",
     "@theholocron/prettier-config": "catalog:configs",
     "@theholocron/semantic-release-config": "catalog:configs",
@@ -28,6 +29,7 @@
     "lint-staged": "catalog:",
     "prettier": "catalog:",
     "semantic-release": "catalog:",
+    "sort-package-json": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:"
   },
