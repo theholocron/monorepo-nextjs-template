@@ -91,6 +91,10 @@ dist
 next-env.d.ts
 .next
 out
+tsconfig.tsbuildinfo
+
+# Astro (generated)
+docs/.astro/
 
 # Storybook
 *storybook.log

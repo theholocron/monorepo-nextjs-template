@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 
 export default {
 	output: "export",
+	agentRules: false,
 	webpack(config, options) {
 		config.plugins.push(
 			codecovNextJSWebpackPlugin({
