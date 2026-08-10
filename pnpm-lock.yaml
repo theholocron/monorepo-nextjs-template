@@ -19,7 +19,7 @@ catalogs:
       specifier: ^7.16.0
       version: 7.16.0
     '@theholocron/prettier-config':
-      specifier: ^7.17.0
+      specifier: ^7.16.0
       version: 7.17.0
     '@theholocron/semantic-release-config':
       specifier: ^7.16.0
@@ -71,7 +71,7 @@ catalogs:
       specifier: ^14.0.0
       version: 14.0.0
     globals:
-      specifier: ^17.8.0
+      specifier: ^17.9.0
       version: 17.9.0
     husky:
       specifier: ^9.1.7
