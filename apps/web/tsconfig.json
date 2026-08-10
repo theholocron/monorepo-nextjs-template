@@ -1,0 +1,14 @@
+{
+  "display": "Web App",
+  "extends": "@theholocron/tsconfig/nextjs",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": ["cypress", "@testing-library/jest-dom"],
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "plugins": [{ "name": "next" }]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+}

@@ -50,8 +50,6 @@ Desktop.ini
 *.so
 
 # Packages
-# It's better to unpack these files and commit the raw source because
-# git has its own built in compression methods.
 *.7z
 *.jar
 *.rar
@@ -88,6 +86,15 @@ coverage
 reports
 test-report.junit.xml
 dist
+
+# Next.js
+next-env.d.ts
+.next
+out
+
+# Storybook
+*storybook.log
+storybook-static
 
 # managed by holocron setup — skills
 /.agents/skills/

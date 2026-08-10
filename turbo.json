@@ -3,26 +3,44 @@
   "globalDependencies": ["pnpm-workspace.yaml", "tsconfig.json"],
   "tasks": {
     "build": {
-      "inputs": ["src/**", "tsdown.config.ts", "tsconfig.json", "package.json"],
-      "outputs": ["dist/**"],
+      "inputs": [
+        "src/**",
+        "app/**",
+        "page/**",
+        "public/**",
+        "vite.config.ts",
+        "next.config.ts",
+        "tsconfig.json",
+        "package.json"
+      ],
+      "outputs": ["dist/**", ".next/**", "out/**"],
       "dependsOn": ["^build"]
     },
+    "build:storybook": {
+      "inputs": ["src/**", "app/**", ".storybook/**", "public/**"],
+      "outputs": ["storybook-static/**"],
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
     "lint": {
-      "inputs": ["src/**", "eslint.config.ts"],
+      "inputs": ["src/**", "app/**", "page/**", "eslint.config.ts", "eslint.config.js"],
       "outputs": []
     },
     "test": {
-      "inputs": ["src/**", "vitest.config.ts", "package.json"],
+      "inputs": ["src/**", "vitest.config.ts", "vitest.setup.ts", "package.json"],
       "outputs": ["test-report.junit.xml"],
       "dependsOn": ["^build"]
     },
     "test:coverage": {
-      "inputs": ["src/**", "vitest.config.ts", "package.json"],
+      "inputs": ["src/**", "vitest.config.ts", "vitest.setup.ts", "package.json"],
       "outputs": ["coverage/**"],
       "dependsOn": ["^build"]
     },
     "typecheck": {
-      "inputs": ["src/**", "tsconfig.json"],
+      "inputs": ["src/**", "app/**", "page/**", "tsconfig.json"],
       "outputs": [],
       "dependsOn": ["^build"]
     }
