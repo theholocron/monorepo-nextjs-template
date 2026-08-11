@@ -295,6 +295,9 @@ importers:
       conventional-changelog-conventionalcommits:
         specifier: 'catalog:'
         version: 10.3.0
+      cypress:
+        specifier: 'catalog:'
+        version: 15.20.1
       eslint:
         specifier: 'catalog:'
         version: 10.8.1(jiti@2.7.0)
@@ -316,6 +319,9 @@ importers:
       lint-staged:
         specifier: 'catalog:'
         version: 17.3.0
+      playwright:
+        specifier: 'catalog:'
+        version: 1.62.1
       prettier:
         specifier: 'catalog:'
         version: 3.9.6

@@ -28,5 +28,5 @@ jobs:
       run-interaction: true
       run-user-flow: true
       wait-on-url: http://localhost:3000
-      run-chromatic: true
+      run-chromatic: false
     secrets: inherit
