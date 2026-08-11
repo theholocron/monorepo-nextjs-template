@@ -14,7 +14,12 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@commitlint/cli": "catalog:",
     "@eslint/js": "catalog:",
+    "@semantic-release/changelog": "catalog:",
+    "@semantic-release/exec": "catalog:",
+    "@semantic-release/git": "catalog:",
+    "@semantic-release/github": "catalog:",
     "@theholocron/cli": "catalog:holocron",
     "@theholocron/commitlint-config": "catalog:configs",
     "@theholocron/eslint-config": "catalog:configs",
@@ -26,6 +31,8 @@
     "@theholocron/semantic-release-config": "catalog:configs",
     "@theholocron/skills": "catalog:configs",
     "@theholocron/tsconfig": "catalog:configs",
+    "alex": "catalog:",
+    "conventional-changelog-conventionalcommits": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-n": "catalog:",
     "eslint-plugin-simple-import-sort": "catalog:",
