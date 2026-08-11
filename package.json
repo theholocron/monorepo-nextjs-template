@@ -13,6 +13,7 @@
     "release": "semantic-release",
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
+    "test:cypress": "turbo run test:cypress --filter=@theholocron/monorepo-nextjs-template-web",
     "test:storybook": "turbo run test:storybook",
     "typecheck": "turbo run typecheck"
   },
