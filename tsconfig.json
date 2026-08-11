@@ -1,5 +1,5 @@
 {
-  "display": "<display_name>",
+  "display": "Monorepo Next.js Template",
   "extends": "@theholocron/tsconfig/node-lts",
   "compilerOptions": {
     "outDir": "dist"
