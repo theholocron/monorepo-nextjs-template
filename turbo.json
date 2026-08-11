@@ -25,6 +25,11 @@
       "cache": false,
       "persistent": true
     },
+    "preview": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^build"]
+    },
     "lint": {
       "inputs": ["src/**", "app/**", "page/**", "eslint.config.ts", "eslint.config.js"],
       "outputs": []
