@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo run build",
-    "build:storybook": "turbo run build:storybook --filter=apps/web --",
+    "build:storybook": "turbo run build:storybook --filter=@theholocron/monorepo-nextjs-template-web --",
     "dev": "turbo run dev --concurrency=10",
     "lint": "turbo run lint",
     "prepare": "husky",
