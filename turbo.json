@@ -21,9 +21,18 @@
       "outputs": ["storybook-static/**"],
       "dependsOn": ["^build"]
     },
+    "start:storybook": {
+      "cache": false,
+      "persistent": true
+    },
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "preview": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^build"]
     },
     "lint": {
       "inputs": ["src/**", "app/**", "page/**", "eslint.config.ts", "eslint.config.js"],
@@ -31,6 +40,11 @@
     },
     "test": {
       "inputs": ["src/**", "vitest.config.ts", "vitest.setup.ts", "package.json"],
+      "outputs": ["test-report.junit.xml"],
+      "dependsOn": ["^build"]
+    },
+    "test:storybook": {
+      "inputs": ["src/**", ".storybook/**", "vitest.config.ts", "vitest.setup.ts", "package.json"],
       "outputs": ["test-report.junit.xml"],
       "dependsOn": ["^build"]
     },

@@ -1,9 +1,9 @@
 {
   "name": "@theholocron/monorepo-nextjs-template-web",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
   "description": "Next.js application.",
+  "type": "module",
   "scripts": {
     "build": "next build --webpack",
     "build:storybook": "storybook build",
@@ -15,6 +15,7 @@
     "start:storybook": "storybook dev -p 6006",
     "test": "vitest run --project storybook",
     "test:coverage": "vitest run --project storybook --coverage",
+    "test:storybook": "vitest run --project storybook",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -52,6 +53,7 @@
     "@vitest/coverage-v8": "catalog:",
     "@vitest/eslint-plugin": "catalog:",
     "axe-playwright": "catalog:",
+    "chromatic": "^18.2.0",
     "cypress": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-cypress": "catalog:",

@@ -11,13 +11,7 @@ const config: KnipConfig = {
 			project: ["src/**/*.ts", "*.ts"],
 		},
 		"apps/*": {
-			entry: [
-				"next.config.ts",
-				"vitest.config.ts",
-				"cypress.config.ts",
-				".storybook/main.ts",
-				"src/index.ts",
-			],
+			entry: ["next.config.ts", "vitest.config.ts", "cypress.config.ts", ".storybook/main.ts", "src/index.ts"],
 			project: ["src/**/*.{ts,tsx}", "app/**/*.{ts,tsx}", "page/**/*.{ts,tsx}", "*.{ts,cjs}"],
 		},
 		"packages/*": {
