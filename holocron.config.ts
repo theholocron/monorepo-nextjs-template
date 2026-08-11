@@ -34,7 +34,7 @@ export default defineConfig({
 				"run-interaction": true,
 				"run-user-flow": false,
 				"wait-on-url": "http://localhost:3000",
-				"run-chromatic": false,
+				"run-chromatic": true,
 			},
 		},
 		{ name: "release", with: { "run-build": true } },
