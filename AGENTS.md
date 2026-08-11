@@ -1,4 +1,4 @@
-# theholocron/monorepo-template — agent operating contract
+# theholocron/monorepo-nextjs-template — agent operating contract
 
 `CLAUDE.md` is a symlink to this file, so Claude, Codex, and every other agent
 read the same rules. Put durable, repo-wide agent guidance here.
@@ -12,19 +12,25 @@ read the same rules. Put durable, repo-wide agent guidance here.
 ## Architecture
 
 - pnpm workspace monorepo with Turborepo for task orchestration.
-- Each package under `packages/` is an independently published npm package.
-- All packages compile TypeScript source (`src/`) to `dist/` via tsdown.
-- Packages are versioned in lockstep via semantic-release (`release.config.ts`).
+- `apps/web` — Next.js application (webpack build, output: export).
+- `packages/ui` — publishable React component library (Vite library build).
+- `docs/` — Astro documentation site.
+- Storybook runs via `@storybook/nextjs-vite` in `apps/web`, importing
+  components from both `apps/web/src/` and `packages/ui`.
 
-## Packages
+## Key decisions
 
-| Package                  | Description |
-| ------------------------ | ----------- |
-| `@theholocron/package-a` | —           |
+- **Webpack only** — `next build --webpack` and `next dev --webpack`. Turbopack
+  does not yet support `output: "export"` or the Codecov bundle plugin.
+  Track: theholocron/nextjs-template#235.
+- **Vite for packages/ui** — the component library uses Vite's library mode
+  (not tsdown). React's JSX transform requires Vite; tsdown is for Node libs.
+- **Storybook in apps/web** — `@storybook/nextjs-vite` handles Storybook's Vite
+  pipeline independently of Next.js's webpack pipeline.
 
 ## Quality
 
-- `pnpm build` — tsdown across all packages via Turbo
-- `pnpm test` — vitest across all packages via Turbo
-- `pnpm typecheck` — `tsc --noEmit` in each package via Turbo
-- `pnpm lint` — ESLint via Turbo
+- `pnpm build` — turbo: Next.js export (`out/`) + Vite library (`dist/`)
+- `pnpm test` — vitest Storybook project in `apps/web` via Turbo
+- `pnpm typecheck` — `tsc --noEmit` in each workspace via Turbo
+- `pnpm lint` — ESLint via Turbo (each workspace has its own config)

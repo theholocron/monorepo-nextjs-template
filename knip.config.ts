@@ -10,9 +10,19 @@ const config: KnipConfig = {
 			entry: ["src/content.config.ts", "astro.config.ts"],
 			project: ["src/**/*.ts", "*.ts"],
 		},
+		"apps/*": {
+			entry: [
+				"next.config.ts",
+				"vitest.config.ts",
+				"cypress.config.ts",
+				".storybook/main.ts",
+				"src/index.ts",
+			],
+			project: ["src/**/*.{ts,tsx}", "app/**/*.{ts,tsx}", "page/**/*.{ts,tsx}", "*.{ts,cjs}"],
+		},
 		"packages/*": {
-			entry: ["src/index.ts", "tsdown.config.ts", "vitest.config.ts"],
-			project: ["src/**/*.ts", "*.ts"],
+			entry: ["src/index.ts", "vite.config.ts", "vitest.config.ts"],
+			project: ["src/**/*.{ts,tsx}", "*.ts"],
 		},
 	},
 	ignoreDependencies: [
