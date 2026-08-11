@@ -10,6 +10,12 @@ const config: StorybookConfig = {
 	],
 	framework: "@storybook/react-vite",
 	stories: ["../src/**/*.mdx", "../src/**/*.story.@(js|jsx|mjs|ts|tsx)"],
+	viteFinal: (config) => {
+		// vite-plugin-dts is only meaningful for the library build; it trips
+		// over missing api-extractor.json when Storybook merges vite.config.ts.
+		config.plugins = config.plugins?.filter((p) => (p as { name?: string })?.name !== "vite:dts");
+		return config;
+	},
 };
 
 export default config;
