@@ -34,7 +34,12 @@ export default defineConfig({
 				"run-interaction": true,
 				"run-user-flow": false,
 				"wait-on-url": "http://localhost:3000",
-				"run-chromatic": true,
+				"run-chromatic": {
+					projects: [
+						{ tokenName: "WEB", workingDir: "apps/web" },
+						{ tokenName: "UI", workingDir: "packages/ui" },
+					],
+				},
 			},
 		},
 		{ name: "release", with: { "run-build": true } },

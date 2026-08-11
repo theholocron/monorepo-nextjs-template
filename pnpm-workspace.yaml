@@ -82,6 +82,6 @@ catalogs:
     "@theholocron/vitest-config": ^7.16.0
 
   holocron:
-    "@theholocron/cli": ^3.17.2
-    "@theholocron/holocron-plugin-github": ^3.17.2
-    "@theholocron/holocron-plugin-vercel": ^3.17.2
+    "@theholocron/cli": ^3.19.0
+    "@theholocron/holocron-plugin-github": ^3.19.0
+    "@theholocron/holocron-plugin-vercel": ^3.19.0
