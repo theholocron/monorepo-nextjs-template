@@ -53,6 +53,7 @@
     "@vitest/coverage-v8": "catalog:",
     "@vitest/eslint-plugin": "catalog:",
     "axe-playwright": "catalog:",
+    "chromatic": "^18.2.0",
     "cypress": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-cypress": "catalog:",
