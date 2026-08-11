@@ -3,6 +3,9 @@ packages:
   - "docs"
   - "packages/*"
 
+onlyBuiltDependencies:
+  - cypress
+
 catalog:
   "@eslint/js": ^10.0.1
   "@chromatic-com/storybook": ^5.3.0
