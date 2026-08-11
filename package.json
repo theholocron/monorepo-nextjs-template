@@ -9,7 +9,7 @@
     "dev": "turbo run dev --concurrency=10",
     "lint": "turbo run lint",
     "prepare": "husky",
-    "preview": "turbo run preview --filter=apps/web",
+    "preview": "turbo run preview --filter=@theholocron/monorepo-nextjs-template-web",
     "release": "semantic-release",
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
