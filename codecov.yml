@@ -16,11 +16,6 @@ comment:
 
 component_management:
   individual_components:
-    - component_id: web
-      name: "web"
-      paths:
-        - apps/web/**
-
     - component_id: ui
       name: "ui"
       paths:
