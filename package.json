@@ -26,6 +26,7 @@
     "@theholocron/holocron-config": "catalog:configs",
     "@theholocron/holocron-plugin-github": "catalog:holocron",
     "@theholocron/holocron-plugin-vercel": "catalog:holocron",
+    "@theholocron/lighthouse-config": "catalog:configs",
     "@theholocron/lint-staged-config": "catalog:configs",
     "@theholocron/prettier-config": "catalog:configs",
     "@theholocron/semantic-release-config": "catalog:configs",
