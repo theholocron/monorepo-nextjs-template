@@ -29,5 +29,5 @@ jobs:
       run-user-flow: false
       wait-on-url: http://localhost:3000
       run-chromatic: true
-      chromatic-projects: [{"tokenName":"WEB","workingDir":"apps/web"},{"tokenName":"UI","workingDir":"packages/ui"}]
+      chromatic-projects: '[{"tokenName":"WEB","workingDir":"apps/web"},{"tokenName":"UI","workingDir":"packages/ui"}]'
     secrets: inherit
