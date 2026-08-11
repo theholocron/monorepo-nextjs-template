@@ -1,4 +1,4 @@
-import { dirname } from "node:path";
+import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { reactApp } from "@theholocron/eslint-config/bundles/react-app";
@@ -16,6 +16,15 @@ const config: Linter.Config[] = [
 		rules: {
 			"react/react-in-jsx-scope": "off",
 			"n/no-missing-import": "off",
+		},
+	},
+	{
+		files: [".storybook/main.@(js|cjs|mjs|ts)"],
+		rules: {
+			"storybook/no-uninstalled-addons": [
+				"error",
+				{ packageJsonLocation: join(dirname(fileURLToPath(import.meta.url)), "package.json") },
+			],
 		},
 	},
 	{ ignores: ["dist/**", "coverage/**"] },

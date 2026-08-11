@@ -1,6 +1,5 @@
 {
   "$schema": "https://www.chromatic.com/config-file.schema.json",
-  "externals": ["../../packages/ui/src/**"],
   "onlyChanged": true,
   "projectId": "Project:6710827922f516f005ce314a",
   "zip": true
