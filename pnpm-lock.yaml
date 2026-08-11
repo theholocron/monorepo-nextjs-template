@@ -274,6 +274,9 @@ importers:
       '@theholocron/holocron-plugin-vercel':
         specifier: catalog:holocron
         version: 3.18.1(@theholocron/cli@3.18.1(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@types/node@26.2.0)(vitest@4.1.10))(@theholocron/vercel-client@1.6.2(vitest@4.1.10))
+      '@theholocron/lighthouse-config':
+        specifier: catalog:configs
+        version: 7.17.0
       '@theholocron/lint-staged-config':
         specifier: catalog:configs
         version: 7.17.0(husky@9.1.7)(lint-staged@17.3.0)(sort-package-json@4.0.0)
