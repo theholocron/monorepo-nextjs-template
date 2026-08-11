@@ -45,6 +45,7 @@
     "@vitest/browser-playwright": "catalog:",
     "@vitest/coverage-v8": "catalog:",
     "@vitest/eslint-plugin": "catalog:",
+    "chromatic": "^18.2.0",
     "eslint-plugin-react": "catalog:",
     "eslint-plugin-storybook": "catalog:",
     "jsdom": "catalog:",
