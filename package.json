@@ -6,13 +6,14 @@
   "scripts": {
     "build": "turbo run build",
     "build:storybook": "turbo run build:storybook --filter=@theholocron/monorepo-nextjs-template-web --",
-    "dev": "turbo run dev --concurrency=10",
+    "dev": "turbo run dev --concurrency=10 --filter=@theholocron/monorepo-nextjs-template-web",
     "lint": "turbo run lint",
     "prepare": "husky",
     "preview": "turbo run preview --filter=@theholocron/monorepo-nextjs-template-web",
     "release": "semantic-release",
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
+    "test:cypress": "turbo run test:cypress --filter=@theholocron/monorepo-nextjs-template-web",
     "test:storybook": "turbo run test:storybook",
     "typecheck": "turbo run typecheck"
   },

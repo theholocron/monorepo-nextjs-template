@@ -27,13 +27,15 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "dependsOn": ["^build"]
     },
     "preview": {
       "cache": false,
       "persistent": true,
       "dependsOn": ["^build"]
     },
+    "test:cypress": {},
     "lint": {
       "inputs": ["src/**", "app/**", "page/**", "eslint.config.ts", "eslint.config.js"],
       "outputs": []
