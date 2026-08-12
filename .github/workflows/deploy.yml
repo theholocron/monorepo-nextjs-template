@@ -8,10 +8,11 @@ on: # yamllint disable-line rule:truthy
   push:
     branches: [main]
     paths:
-      - src/**
-      - .storybook/**
+      - docs/**
       - apps/web/src/**
       - apps/web/.storybook/**
+      - packages/ui/src/**
+      - packages/ui/.storybook/**
   workflow_dispatch:
 
 concurrency:
@@ -28,5 +29,7 @@ jobs:
     name: Deploy
     uses: theholocron/.github/.github/workflows/deploy.yml@main
     with:
-      type: storybook
+      type: docs
+      name: monorepo-nextjs-template
+      storybook-projects: '[{"name":"web","workingDir":"apps/web"},{"name":"ui","workingDir":"packages/ui"}]'
     secrets: inherit
