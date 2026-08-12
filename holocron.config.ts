@@ -32,7 +32,7 @@ export default defineConfig({
 				"run-unit": false,
 				"run-storybook": true,
 				"run-interaction": true,
-				"run-user-flow": false,
+				"run-user-flow": true,
 				"wait-on-url": "http://localhost:3000",
 				"run-chromatic": {
 					projects: [

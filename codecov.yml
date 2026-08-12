@@ -20,8 +20,3 @@ component_management:
       name: "ui"
       paths:
         - packages/ui/**
-
-    - component_id: web
-      name: "web"
-      paths:
-        - apps/web/**
