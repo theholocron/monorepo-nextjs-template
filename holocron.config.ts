@@ -47,11 +47,7 @@ export default defineConfig({
 			name: "deploy-storybook",
 			paths: ["apps/web/src/**", "apps/web/.storybook/**"],
 		},
-		{
-			name: "deploy-docs",
-			with: { name: "monorepo-nextjs-template", "skip-content": true },
-			paths: ["docs/**"],
-		},
+		{ name: "deploy-docs", with: { name: "monorepo-nextjs-template" }, paths: ["docs/**"] },
 	],
 	providers: {
 		...providers,
