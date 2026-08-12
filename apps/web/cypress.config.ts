@@ -37,5 +37,5 @@ export default defineConfig({
 		supportFile: false,
 		retries: 2,
 	},
-	projectId: "etpgyt",
+	projectId: "1jeiz3",
 });
