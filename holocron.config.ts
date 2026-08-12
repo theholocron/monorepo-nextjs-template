@@ -44,10 +44,10 @@ export default defineConfig({
 		},
 		{ name: "release", with: { "run-build": true } },
 		{
-			name: "deploy-storybook",
+			name: "deploy",
+			with: { type: "storybook" },
 			paths: ["apps/web/src/**", "apps/web/.storybook/**"],
 		},
-		{ name: "deploy-docs", with: { name: "monorepo-nextjs-template" }, paths: ["docs/**"] },
 	],
 	providers: {
 		...providers,
