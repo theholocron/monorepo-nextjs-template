@@ -8,7 +8,7 @@
     "build:storybook": "turbo run build:storybook --filter=@theholocron/monorepo-nextjs-template-web --",
     "dev": "turbo run dev --concurrency=10 --filter=@theholocron/monorepo-nextjs-template-web",
     "lint": "turbo run lint",
-    "prepare": "husky",
+    "prepare": "husky && pnpm exec cypress install",
     "preview": "turbo run preview --filter=@theholocron/monorepo-nextjs-template-web",
     "release": "semantic-release",
     "test": "turbo run test",
