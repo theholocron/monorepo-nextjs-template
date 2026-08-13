@@ -44,13 +44,22 @@ export default defineConfig({
 		},
 		{ name: "release", with: { "run-build": true } },
 		{
-			name: "deploy-storybook",
-			paths: ["apps/web/src/**", "apps/web/.storybook/**"],
-		},
-		{
-			name: "deploy-docs",
-			with: { name: "monorepo-nextjs-template", "skip-content": true },
-			paths: ["docs/**"],
+			name: "deploy",
+			with: {
+				type: "docs",
+				name: "monorepo-nextjs-template",
+				"storybook-projects": [
+					{ name: "web", workingDir: "apps/web" },
+					{ name: "ui", workingDir: "packages/ui" },
+				],
+			},
+			paths: [
+				"docs/**",
+				"apps/web/src/**",
+				"apps/web/.storybook/**",
+				"packages/ui/src/**",
+				"packages/ui/.storybook/**",
+			],
 		},
 	],
 	providers: {
