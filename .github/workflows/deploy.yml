@@ -1,0 +1,36 @@
+# AUTO-GENERATED — do not edit directly.
+# Source:  theholocron/holocron · packages/cli/src/commands/setup-workflows.ts
+# Tool:    holocron sync-github
+# Changes: edit source in theholocron/holocron and push to alpha or main.
+name: Deploy
+
+on: # yamllint disable-line rule:truthy
+  push:
+    branches: [main]
+    paths:
+      - docs/**
+      - apps/web/src/**
+      - apps/web/.storybook/**
+      - packages/ui/src/**
+      - packages/ui/.storybook/**
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    name: Deploy
+    uses: theholocron/.github/.github/workflows/deploy.yml@main
+    with:
+      type: docs
+      name: monorepo-nextjs-template
+      storybook-projects: >-
+        [{"name":"web","workingDir":"apps/web","outputDir":"storybook-static"},{"name":"ui","workingDir":"packages/ui","outputDir":"storybook-static"}]
+    secrets: inherit
