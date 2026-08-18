@@ -37,6 +37,7 @@
     "@storybook/addon-themes": "catalog:",
     "@storybook/addon-vitest": "catalog:",
     "@storybook/nextjs-vite": "catalog:",
+    "@storybook/react": "catalog:",
     "@testing-library/jest-dom": "catalog:",
     "@testing-library/react": "catalog:",
     "@theholocron/eslint-config": "catalog:configs",
