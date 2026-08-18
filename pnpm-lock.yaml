@@ -101,7 +101,7 @@ catalogs:
       specifier: ^10.5.8
       version: 10.5.8
     '@testing-library/jest-dom':
-      specifier: ^7.0.0
+      specifier: ^7.0.1
       version: 7.0.1
     '@testing-library/react':
       specifier: ^16.3.2
@@ -3338,15 +3338,6 @@ packages:
 
   '@theholocron/http-client@1.6.7':
     resolution: {integrity: sha512-htW3WHSXLiYvGwPxfHjPZq44my8MdeFbT0Nw6oGFy7n5BWKQM9wHzCOvCx6r/DdfrVb40UmOFzZlFaPHS2rMjQ==}
-    engines: {node: '>=22.0.0'}
-    peerDependencies:
-      vitest: '>=4.0.0'
-    peerDependenciesMeta:
-      vitest:
-        optional: true
-
-  '@theholocron/http-client@1.7.1':
-    resolution: {integrity: sha512-MbI9JniWcSpYaCaUel05lZRlYpiXJYKm81w4hFATExi+lNELmclnKiIYrVAgDj/5BhMjjjdYkf/OHJOTZe5OLg==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       vitest: '>=4.0.0'
@@ -7099,9 +7090,6 @@ packages:
 
   mdn-data@2.27.1:
     resolution: {integrity: sha512-9Yubnt3e8A0OKwxYSXyhLymGW4sCufcLG6VdiDdUGVkPhpqLxlvP5vl1983gQjJl3tqbrM731mjaZaP68AgosQ==}
-
-  mdn-data@2.33.0:
-    resolution: {integrity: sha512-w08CU5UMJbpIsoyl7Aw3zgV9jHK+SWPB2WlWsy7+IQeFwr52yJkPh6xK+u+1i+/7ctPk3xYnW+acso56uQ5caw==}
 
   meow@11.0.0:
     resolution: {integrity: sha512-Cl0yeeIrko6d94KpUo1M+0X1sB14ikoaqlIGuTH1fW4I+E3+YljL54/hb/BWmVfrV9tTV9zU04+xjw08Fh2WkA==}
@@ -12976,10 +12964,6 @@ snapshots:
     optionalDependencies:
       vitest: 4.1.10(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(@vitest/browser-playwright@4.1.10)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.2.0)(typescript@5.9.3))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
 
-  '@theholocron/http-client@1.7.1(vitest@4.1.10)':
-    optionalDependencies:
-      vitest: 4.1.10(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(@vitest/browser-playwright@4.1.10)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.2.0)(typescript@5.9.3))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
-
   '@theholocron/lighthouse-config@7.19.1': {}
 
   '@theholocron/lint-staged-config@7.19.1(husky@9.1.7)(lint-staged@17.3.0)(sort-package-json@4.0.0)':
@@ -13039,7 +13023,7 @@ snapshots:
 
   '@theholocron/vercel-client@1.6.2(vitest@4.1.10)':
     dependencies:
-      '@theholocron/http-client': 1.7.1(vitest@4.1.10)
+      '@theholocron/http-client': 1.6.7(vitest@4.1.10)
     transitivePeerDependencies:
       - vitest
 
@@ -17665,8 +17649,6 @@ snapshots:
 
   mdn-data@2.27.1: {}
 
-  mdn-data@2.33.0: {}
-
   meow@11.0.0:
     dependencies:
       '@types/minimist': 1.2.5
@@ -20300,7 +20282,7 @@ snapshots:
       css-tree: 3.2.1
       is-plain-object: 5.0.0
       known-css-properties: 0.37.0
-      mdn-data: 2.33.0
+      mdn-data: 2.27.1
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.6
       postcss-selector-parser: 7.1.5
@@ -21203,7 +21185,7 @@ snapshots:
       browserslist: 4.28.8
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.24.5
-      es-module-lexer: 2.3.2
+      es-module-lexer: 2.3.1
       eslint-scope: 5.1.1
       events: 3.3.0
       graceful-fs: 4.2.11
@@ -21239,7 +21221,7 @@ snapshots:
       browserslist: 4.28.8
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.24.5
-      es-module-lexer: 2.3.2
+      es-module-lexer: 2.3.1
       eslint-scope: 5.1.1
       events: 3.3.0
       graceful-fs: 4.2.11
