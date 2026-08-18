@@ -101,7 +101,7 @@ catalogs:
       specifier: ^10.5.8
       version: 10.5.8
     '@testing-library/jest-dom':
-      specifier: ^7.0.0
+      specifier: ^7.0.1
       version: 7.0.1
     '@testing-library/react':
       specifier: ^16.3.2
