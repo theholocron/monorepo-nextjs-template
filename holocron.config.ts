@@ -29,8 +29,6 @@ export default defineConfig({
 			"audit / Audit the bundle size",
 			"audit / Audit the performance",
 			"audit / Knip",
-			"codecov/patch",
-			"codecov/project",
 			"lhci/url/",
 		],
 		properties: {
