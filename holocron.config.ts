@@ -31,6 +31,7 @@ export default defineConfig({
 			"audit / Knip",
 			"codecov/patch",
 			"codecov/project",
+			"lhci/url/",
 		],
 		properties: {
 			...repo.properties,
