@@ -7,8 +7,8 @@ settings:
 catalogs:
   configs:
     '@theholocron/astro-config':
-      specifier: ^7.19.1
-      version: 7.19.1
+      specifier: ^7.22.2
+      version: 7.22.2
     '@theholocron/commitlint-config':
       specifier: ^7.19.1
       version: 7.19.1
@@ -279,7 +279,7 @@ importers:
         version: 12.0.9(semantic-release@25.0.9(typescript@5.9.3))
       '@theholocron/astro-config':
         specifier: catalog:configs
-        version: 7.19.1(astro@7.2.2(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
+        version: 7.22.2(astro@7.2.2(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
       '@theholocron/cli':
         specifier: catalog:holocron
         version: 3.24.4(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@types/node@26.2.0)(vitest@4.1.10)
@@ -397,7 +397,7 @@ importers:
         version: 5.3.0(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@codecov/nextjs-webpack-plugin':
         specifier: 'catalog:'
-        version: 2.0.1(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+        version: 2.0.1(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/addon-a11y':
         specifier: 'catalog:'
         version: 10.5.8(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
@@ -406,10 +406,10 @@ importers:
         version: 3.0.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
       '@storybook/addon-designs':
         specifier: 'catalog:'
-        version: 11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
+        version: 11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-docs':
         specifier: 'catalog:'
-        version: 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+        version: 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/addon-links':
         specifier: 'catalog:'
         version: 10.5.8(@types/react@19.2.18)(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
@@ -421,7 +421,7 @@ importers:
         version: 10.5.8(@vitest/browser-playwright@4.1.10)(@vitest/browser@4.1.10)(@vitest/runner@4.1.10)(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vitest@4.1.10)
       '@storybook/nextjs-vite':
         specifier: 'catalog:'
-        version: 10.5.8(@babel/core@7.29.7)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+        version: 10.5.8(@babel/core@7.29.7)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/react':
         specifier: 'catalog:'
         version: 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)
@@ -442,7 +442,7 @@ importers:
         version: 7.19.1(prettier@3.9.6)
       '@theholocron/storybook-config':
         specifier: catalog:configs
-        version: 7.19.1(8dc0dd9d61cc8cd66f058a655aa6c741)
+        version: 7.19.1(a1bbc66cbdac405d2a931b1fad4a0c12)
       '@theholocron/stylelint-config':
         specifier: catalog:configs
         version: 7.19.1(stylelint-config-standard-scss@15.0.1(postcss@8.5.26)(stylelint@17.14.1(typescript@5.9.3)))(stylelint-config-standard@38.0.0(stylelint@17.14.1(typescript@5.9.3)))(stylelint@17.14.1(typescript@5.9.3))
@@ -3122,86 +3122,86 @@ packages:
     peerDependencies:
       storybook: ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0
 
-  '@swc/core-darwin-arm64@1.16.0':
-    resolution: {integrity: sha512-SJQPl+xG/zB8bNjC/gTg3WOmOvz7EzlQD+VShfCKFYPNr2qvb+vATUY11vYEjnMWCn6wV8H8eAtjQrVflYyX5A==}
+  '@swc/core-darwin-arm64@1.16.1':
+    resolution: {integrity: sha512-zlJblJ8ncErD43lKdxjbUaUskJQf+LxiPXYcWXD8/8ZMV+7uuAT+CwjciLXpyZBd5Pq/S726bMpeeAwSeL1hhg==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.16.0':
-    resolution: {integrity: sha512-ql2JVch8V5t1i+HxiiuD4oVDI1dOku4/e3QiCkplONrm3SLitqNAP+nztHN51fSG2IgGuOwpAi3hgA+ukT5yQg==}
+  '@swc/core-darwin-x64@1.16.1':
+    resolution: {integrity: sha512-IN0BmPWb0YAh/17mmlWB/HDBtTw2MfuW4hulf/tQAgTQBRH17l+z499bNJLK6LizSjqs0P7V+jU38Zj+vJC1DA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.16.0':
-    resolution: {integrity: sha512-PcdDBaRbe39y37h1rXVkhNy7mEU7f8b34KD761C68R23EsfMsj5oDPVddRzGdSRAvwwSfH0WSNEHgYmc/AJipg==}
+  '@swc/core-linux-arm-gnueabihf@1.16.1':
+    resolution: {integrity: sha512-EYgrx2YOCQ2Twz2S793kqNjPkpvYVUPzzR95bIb7by+VQcyaai4lZZ2iz/tZvcFVKSNcN3/JTKwx+aBn2ZL52A==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.16.0':
-    resolution: {integrity: sha512-t21IUztHQ/COucy7Kk9eIlehmq08H/hYq7aRA6fZox3S5ddi6TxWPK6e5S/+aTCf6+Od9qQ+LIpjHMiTy737vA==}
+  '@swc/core-linux-arm64-gnu@1.16.1':
+    resolution: {integrity: sha512-moyKm0YZlHdHohzm1YwgAyesqnE853rO0REMfJLFAova51wF9BNi+3ZW2PeS7Vqvn6HeJuepLpAHbBdZctxpHA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-arm64-musl@1.16.0':
-    resolution: {integrity: sha512-d9+iajbMB87b0umgbP+Gy3yBDSDgty4Q6H5pZ8fgTb/dOoKIwwynP4L4kvWCOFg2i49kxmAAUs1uJZh9s0E+RQ==}
+  '@swc/core-linux-arm64-musl@1.16.1':
+    resolution: {integrity: sha512-kKGBO9wdapiSzuf5ZzZ2fYtlu1BNSYtIIUxvH1ir/gcelTOREEHGDCLTDFx/2Knf878nU11A40z7LxwasEFxqA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@swc/core-linux-ppc64-gnu@1.16.0':
-    resolution: {integrity: sha512-QRpeKGOg+B0qmo3BFU+6rL/gpoKYYJ7OFSMf5DNMafohYZ/iq2qvAH9Gcrf8NxROj3iooKOVewJ+YgahH1nSLw==}
+  '@swc/core-linux-ppc64-gnu@1.16.1':
+    resolution: {integrity: sha512-nZ6qahtLxC3PM54cWOQZHxt4lTCF/3J4LIoWWzz6v7A+rLs8Dx54anYQf7mH3eIi8KlNpgKci/ie8ZSqFN8O7A==}
     engines: {node: '>=10'}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-s390x-gnu@1.16.0':
-    resolution: {integrity: sha512-q+Vr/hmHCcRXT/WFzOJC+T6GGEEtq2iaTtmyLfxO7yzu4ckgcqSNkg9m181wfNhuMwfNBoBhOfwQCnLsGZ5F4g==}
+  '@swc/core-linux-s390x-gnu@1.16.1':
+    resolution: {integrity: sha512-4ji5PNzhYq193Z4/4xUaSoNJza6iCkDJSzhetrbB6KOYxsr+kxtQr8ePWhMJUiMt6JUWtXaZ1PYT8FhtED+nGA==}
     engines: {node: '>=10'}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-x64-gnu@1.16.0':
-    resolution: {integrity: sha512-DWVBc3QnpsSgKoq8N4rmZeZa5r/XrHdLkITsExN/tvTdqPtAPDPt+Ysy33OfgBlyN8lNe4xwsXWe6DXlRkJeRQ==}
+  '@swc/core-linux-x64-gnu@1.16.1':
+    resolution: {integrity: sha512-VJQxqrisHV+B394IgrOu8YsIIXZgffnf5tO+yc9Z/hoUpuZEvuQTjWwlnpZdpyD+0nx6LTD1/3k646JYm43yJA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-x64-musl@1.16.0':
-    resolution: {integrity: sha512-6XCgDSc1HPf/5dpjvABhKHICiBcsuZyW3hQMkn8sxel0TqprkJGp+H4iaBYIUTPixhrBub2hBPtfjcZLE6yL3w==}
+  '@swc/core-linux-x64-musl@1.16.1':
+    resolution: {integrity: sha512-r9oV1mwxxsIGcLV1IQ/tw76MW3doatKze1QFWuC+a7QqJUkhY/bKTSVk6NpKKUGm2LDsE33Va8VqSClfA7vSiQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@swc/core-win32-arm64-msvc@1.16.0':
-    resolution: {integrity: sha512-T/+9VVCZJ3AKEth9IP3U9AJ2YscQq+7LUqRTvfR4a2q36+Ri22oOwUizpAKOqQ42vb2Y/kOa4TOcJOfHoDIT/w==}
+  '@swc/core-win32-arm64-msvc@1.16.1':
+    resolution: {integrity: sha512-6huNRessoBLxWEqBm5zJXyCQ27TO7anvkdiuQ5MDO4CJni0nOXEqKtV9RllQ2TdyENKKsUMXVnIfW2hIXx/R5Q==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.16.0':
-    resolution: {integrity: sha512-Pr1lsR/PMs8ndL0UWMrW8nLZ7H7sspIxBRDdjL8f+YJ/FJNASgzfunbVVXAqj0csgIJYHPZy+OW9smjFmk1Rcg==}
+  '@swc/core-win32-ia32-msvc@1.16.1':
+    resolution: {integrity: sha512-OVKJFUzphrGmsh+BGtcZDesx0YryV7/Yvy5XGgTqnrZfjnyfcr5uaqYQugCckdIlupc5Vs3XtDjRAj12z4ZPlw==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.16.0':
-    resolution: {integrity: sha512-ktdeYLgOQdaonvsj5tJijqgpb0wk7gfF80wCFVA0kucI1hhSUIyfcGbjo5+9sdqv38OhMnTdLoA6xbqgOgPQjw==}
+  '@swc/core-win32-x64-msvc@1.16.1':
+    resolution: {integrity: sha512-Bt+VIhWYCGk4urklnkkteLUOeLv1VxigwTCeB/xC6rBZxY6IIKdDwCJf6on3E3SUGsIqmQS6QqtuJQc1VxF4Aw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.16.0':
-    resolution: {integrity: sha512-zSdvEHxBg00WhUNtW/u58hhcdR33gjtMQvOBo8F7POWJDyjRCt/miKfhidT3hCc/118RUwNnlEAmxiihFMbK4Q==}
+  '@swc/core@1.16.1':
+    resolution: {integrity: sha512-nUaeu91O5QZKrQdaDCHd402ogUIoNOOjpkZNq0UomWK0G6gDaGmLhvddF1/3BXf5O8aLyo6ZPY/aMDWvaJQ/hg==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '>=0.5.17'
@@ -3267,8 +3267,8 @@ packages:
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
 
-  '@theholocron/astro-config@7.19.1':
-    resolution: {integrity: sha512-QE47/ODTNEwszna7jxlI7EDQBDtP0bs5UJy25+kgoa8AI5lDPtW2ZKHRPQ7nZc1T1hsyNF7zpUZZRwHwHisGFw==}
+  '@theholocron/astro-config@7.22.2':
+    resolution: {integrity: sha512-cU7nZqBIKZteVB3qBJ0hdSAsKv5EWN7/hreM4/3AiEevq4SDXCYriVXiGQ+MVHoTSLtZk3b4PFE2jEf+zuxg+g==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       astro: '>=5.0.0'
@@ -3342,8 +3342,8 @@ packages:
       '@theholocron/cli': 3.24.4
       '@theholocron/vercel-client': ^1.6.0
 
-  '@theholocron/http-client@1.10.1':
-    resolution: {integrity: sha512-FHerOw/q30t9v1NTnM+Wq7yxtKpYm30ISU0+HMnjM+2asI0eUmSVJe1uQAj08rTVmQZBaWv78spe/BWiYvfr/w==}
+  '@theholocron/http-client@1.10.2':
+    resolution: {integrity: sha512-YCB8McNeQzXv+LZWtvh0TRipN9J07QoEYlblhdIsXVGosDUgGu3Cwy3Cf6jtTh+DYAJhC252QAjwBxgBPjG/HA==}
     engines: {node: '>=22.0.0'}
     peerDependencies:
       vitest: '>=4.0.0'
@@ -6586,8 +6586,8 @@ packages:
   jju@1.4.0:
     resolution: {integrity: sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==}
 
-  joi@17.13.4:
-    resolution: {integrity: sha512-1RuuER6kmt8K8I3nIWvPZKi5RQCb568ZPyY4Pwjlua+yo+63ZTmIwxLZH0heBmiKN4uxjvCiarDrjaeH84xicQ==}
+  joi@17.13.6:
+    resolution: {integrity: sha512-ImNZaq/LSysofih+xIGYfR0WUXMA9GLUNB//YTCSrZptoRmVgaNAdJyi6K1kXi9pkLEoSkoI8I4UwtNiu/D7nw==}
 
   js-tokens@10.0.0:
     resolution: {integrity: sha512-lM/UBzQmfJRo9ABXbPWemivdCW8V2G8FHaHdypQaIy523snUjog0W71ayWXTjiR+ixeMyVHN2XcpnTd/liPg/Q==}
@@ -10679,19 +10679,19 @@ snapshots:
       unplugin: 1.16.1
       zod: 3.25.76
 
-  '@codecov/nextjs-webpack-plugin@2.0.1(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@codecov/nextjs-webpack-plugin@2.0.1(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
       '@codecov/bundler-plugin-core': 2.0.1
-      '@codecov/webpack-plugin': 2.0.1(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@codecov/webpack-plugin': 2.0.1(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       next: 16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       unplugin: 1.16.1
-      webpack: 5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)
+      webpack: 5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)
 
-  '@codecov/webpack-plugin@2.0.1(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@codecov/webpack-plugin@2.0.1(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
       '@codecov/bundler-plugin-core': 2.0.1
       unplugin: 1.16.1
-      webpack: 5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)
+      webpack: 5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)
 
   '@colors/colors@1.5.0':
     optional: true
@@ -12524,21 +12524,21 @@ snapshots:
       - supports-color
       - vite
 
-  '@storybook/addon-designs@11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))':
+  '@storybook/addon-designs@11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))':
     dependencies:
       '@figspec/react': 2.0.1(@types/react@19.2.18)(react@19.2.8)
       storybook: 10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8)
     optionalDependencies:
-      '@storybook/addon-docs': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/addon-docs': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
     transitivePeerDependencies:
       - '@types/react'
 
-  '@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
       '@mdx-js/react': 3.1.1(@types/react@19.2.18)(react@19.2.8)
-      '@storybook/csf-plugin': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/csf-plugin': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/icons': 2.1.0(react@19.2.8)
       '@storybook/react-dom-shim': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       react: 19.2.8
@@ -12599,9 +12599,9 @@ snapshots:
     transitivePeerDependencies:
       - react
 
-  '@storybook/builder-vite@10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@storybook/builder-vite@10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
-      '@storybook/csf-plugin': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/csf-plugin': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       storybook: 10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8)
       ts-dedent: 2.3.0
       vite: 8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0)
@@ -12621,14 +12621,14 @@ snapshots:
       - rollup
       - webpack
 
-  '@storybook/csf-plugin@10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@storybook/csf-plugin@10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
       storybook: 10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8)
       unplugin: 2.3.11
     optionalDependencies:
       esbuild: 0.28.2
       vite: 8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0)
-      webpack: 5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)
+      webpack: 5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)
 
   '@storybook/csf-plugin@10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
@@ -12645,11 +12645,11 @@ snapshots:
     dependencies:
       react: 19.2.8
 
-  '@storybook/nextjs-vite@10.5.8(@babel/core@7.29.7)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@storybook/nextjs-vite@10.5.8(@babel/core@7.29.7)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(next@16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
-      '@storybook/builder-vite': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/builder-vite': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/react': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)
-      '@storybook/react-vite': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/react-vite': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       next: 16.3.0(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
@@ -12678,11 +12678,11 @@ snapshots:
       '@types/react': 19.2.18
       '@types/react-dom': 19.2.4(@types/react@19.2.18)
 
-  '@storybook/react-vite@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))':
+  '@storybook/react-vite@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))':
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.7.0(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
       '@rollup/pluginutils': 5.4.0
-      '@storybook/builder-vite': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/builder-vite': 10.5.8(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/react': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)
       empathic: 2.0.1
       magic-string: 0.30.21
@@ -12751,8 +12751,8 @@ snapshots:
       '@babel/template': 7.29.7
       '@babel/types': 7.29.8
       '@jest/types': 29.6.3
-      '@swc/core': 1.16.0
-      '@swc/jest': 0.2.39(@swc/core@1.16.0)
+      '@swc/core': 1.16.1
+      '@swc/jest': 0.2.39(@swc/core@1.16.1)
       expect-playwright: 0.8.0
       jest: 29.7.0(@types/node@26.2.0)
       jest-circus: 29.7.0
@@ -12774,59 +12774,59 @@ snapshots:
       - supports-color
       - ts-node
 
-  '@swc/core-darwin-arm64@1.16.0':
+  '@swc/core-darwin-arm64@1.16.1':
     optional: true
 
-  '@swc/core-darwin-x64@1.16.0':
+  '@swc/core-darwin-x64@1.16.1':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.16.0':
+  '@swc/core-linux-arm-gnueabihf@1.16.1':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.16.0':
+  '@swc/core-linux-arm64-gnu@1.16.1':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.16.0':
+  '@swc/core-linux-arm64-musl@1.16.1':
     optional: true
 
-  '@swc/core-linux-ppc64-gnu@1.16.0':
+  '@swc/core-linux-ppc64-gnu@1.16.1':
     optional: true
 
-  '@swc/core-linux-s390x-gnu@1.16.0':
+  '@swc/core-linux-s390x-gnu@1.16.1':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.16.0':
+  '@swc/core-linux-x64-gnu@1.16.1':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.16.0':
+  '@swc/core-linux-x64-musl@1.16.1':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.16.0':
+  '@swc/core-win32-arm64-msvc@1.16.1':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.16.0':
+  '@swc/core-win32-ia32-msvc@1.16.1':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.16.0':
+  '@swc/core-win32-x64-msvc@1.16.1':
     optional: true
 
-  '@swc/core@1.16.0':
+  '@swc/core@1.16.1':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.28
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.16.0
-      '@swc/core-darwin-x64': 1.16.0
-      '@swc/core-linux-arm-gnueabihf': 1.16.0
-      '@swc/core-linux-arm64-gnu': 1.16.0
-      '@swc/core-linux-arm64-musl': 1.16.0
-      '@swc/core-linux-ppc64-gnu': 1.16.0
-      '@swc/core-linux-s390x-gnu': 1.16.0
-      '@swc/core-linux-x64-gnu': 1.16.0
-      '@swc/core-linux-x64-musl': 1.16.0
-      '@swc/core-win32-arm64-msvc': 1.16.0
-      '@swc/core-win32-ia32-msvc': 1.16.0
-      '@swc/core-win32-x64-msvc': 1.16.0
+      '@swc/core-darwin-arm64': 1.16.1
+      '@swc/core-darwin-x64': 1.16.1
+      '@swc/core-linux-arm-gnueabihf': 1.16.1
+      '@swc/core-linux-arm64-gnu': 1.16.1
+      '@swc/core-linux-arm64-musl': 1.16.1
+      '@swc/core-linux-ppc64-gnu': 1.16.1
+      '@swc/core-linux-s390x-gnu': 1.16.1
+      '@swc/core-linux-x64-gnu': 1.16.1
+      '@swc/core-linux-x64-musl': 1.16.1
+      '@swc/core-win32-arm64-msvc': 1.16.1
+      '@swc/core-win32-ia32-msvc': 1.16.1
+      '@swc/core-win32-x64-msvc': 1.16.1
 
   '@swc/counter@0.1.3': {}
 
@@ -12834,10 +12834,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/jest@0.2.39(@swc/core@1.16.0)':
+  '@swc/jest@0.2.39(@swc/core@1.16.1)':
     dependencies:
       '@jest/create-cache-key-function': 30.4.1
-      '@swc/core': 1.16.0
+      '@swc/core': 1.16.1
       '@swc/counter': 0.1.3
       jsonc-parser: 3.3.1
 
@@ -12895,7 +12895,7 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.1
 
-  '@theholocron/astro-config@7.19.1(astro@7.2.2(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))':
+  '@theholocron/astro-config@7.22.2(astro@7.2.2(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))':
     dependencies:
       astro: 7.2.2(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0)
 
@@ -12964,7 +12964,7 @@ snapshots:
       '@theholocron/cli': 3.24.4(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@types/node@26.2.0)(vitest@4.1.10)
       '@theholocron/vercel-client': 1.6.2(vitest@4.1.10)
 
-  '@theholocron/http-client@1.10.1(vitest@4.1.10)':
+  '@theholocron/http-client@1.10.2(vitest@4.1.10)':
     optionalDependencies:
       vitest: 4.1.10(@opentelemetry/api@1.9.1)(@types/node@26.2.0)(@vitest/browser-playwright@4.1.10)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.2.0)(typescript@5.9.3))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
 
@@ -12999,18 +12999,18 @@ snapshots:
 
   '@theholocron/skills@1.3.2': {}
 
-  '@theholocron/storybook-config@7.19.1(8dc0dd9d61cc8cd66f058a655aa6c741)':
+  '@theholocron/storybook-config@7.19.1(a1bbc66cbdac405d2a931b1fad4a0c12)':
     dependencies:
       '@chromatic-com/storybook': 5.3.0(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-a11y': 10.5.8(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-coverage': 3.0.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))
-      '@storybook/addon-designs': 11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
-      '@storybook/addon-docs': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/addon-designs': 11.1.4(@storybook/addon-docs@10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
+      '@storybook/addon-docs': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/addon-links': 10.5.8(@types/react@19.2.18)(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-themes': 10.5.8(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-vitest': 10.5.8(@vitest/browser-playwright@4.1.10)(@vitest/browser@4.1.10)(@vitest/runner@4.1.10)(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vitest@4.1.10)
       '@storybook/react': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)
-      '@storybook/react-vite': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      '@storybook/react-vite': 10.5.8(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(esbuild@0.28.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(tsx@4.22.4)(yaml@2.9.0))(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       '@storybook/test-runner': 0.23.0(@types/node@26.2.0)(storybook@10.5.8(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@testing-library/jest-dom': 7.0.1(@testing-library/dom@10.4.1)(vitest@4.1.10)
       '@testing-library/react': 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -13031,7 +13031,7 @@ snapshots:
 
   '@theholocron/vercel-client@1.6.2(vitest@4.1.10)':
     dependencies:
-      '@theholocron/http-client': 1.10.1(vitest@4.1.10)
+      '@theholocron/http-client': 1.10.2(vitest@4.1.10)
     transitivePeerDependencies:
       - vitest
 
@@ -16920,7 +16920,7 @@ snapshots:
   jju@1.4.0:
     optional: true
 
-  joi@17.13.4:
+  joi@17.13.6:
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
@@ -18289,15 +18289,15 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  minimizer-webpack-plugin@5.6.1(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)):
+  minimizer-webpack-plugin@5.6.1(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.50.0
-      webpack: 5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)
+      webpack: 5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)
     optionalDependencies:
-      '@swc/core': 1.16.0
+      '@swc/core': 1.16.1
       esbuild: 0.28.2
       postcss: 8.5.26
 
@@ -21146,7 +21146,7 @@ snapshots:
   wait-on@7.2.0:
     dependencies:
       axios: 1.19.0
-      joi: 17.13.4
+      joi: 17.13.6
       lodash: 4.18.1
       minimist: 1.2.8
       rxjs: 7.8.2
@@ -21184,7 +21184,7 @@ snapshots:
 
   webpack-virtual-modules@0.6.2: {}
 
-  webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26):
+  webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26):
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -21200,7 +21200,7 @@ snapshots:
       events: 3.3.0
       graceful-fs: 4.2.11
       mime-db: 1.54.0
-      minimizer-webpack-plugin: 5.6.1(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26)(webpack@5.109.2(@swc/core@1.16.0)(esbuild@0.28.2)(postcss@8.5.26))
+      minimizer-webpack-plugin: 5.6.1(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26)(webpack@5.109.2(@swc/core@1.16.1)(esbuild@0.28.2)(postcss@8.5.26))
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.3
