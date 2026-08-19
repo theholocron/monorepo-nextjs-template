@@ -30,6 +30,8 @@ export default defineConfig({
 			"audit / Audit the performance",
 			"audit / Knip",
 			"codecov/patch",
+			"codecov/patch/ui",
+			"codecov/patch/web",
 			"codecov/project",
 			"lhci/url/",
 		],
