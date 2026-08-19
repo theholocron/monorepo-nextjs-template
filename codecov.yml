@@ -1,21 +1,42 @@
+codecov:
+  require_ci_to_pass: true
+
 coverage:
+  precision: 2
+  round: down
+  range: "70...100"
   status:
-    default_rules:
-      flag_coverage_not_uploaded_behavior: exclude
     project:
-      web:
+      default:
         target: auto
-        threshold: 1%
-      ui:
+        threshold: 2%
+    patch:
+      default:
         target: auto
-        threshold: 1%
+        threshold: 2%
+
+ignore:
+  - "*.config.*"
+  - "**/*.story.*"
+  - "**/*.mock.*"
+  - "**/handlers.*"
 
 comment:
-  layout: "reach, diff, flags, files"
+  layout: "reach,diff,flags,components"
   behavior: default
+  require_changes: true
 
 component_management:
+  default_rules:
+    statuses:
+      - type: patch
+        target: auto
   individual_components:
+    - component_id: web
+      name: "web"
+      paths:
+        - apps/web/**
+
     - component_id: ui
       name: "ui"
       paths:
