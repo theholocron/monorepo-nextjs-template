@@ -21,7 +21,7 @@
     "start:storybook": "storybook dev -p 6007",
     "test": "vitest run --project unit",
     "test:coverage": "vitest run --project unit --coverage",
-    "test:storybook": "vitest run --project storybook",
+    "test:storybook": "vitest run --project storybook --coverage",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
