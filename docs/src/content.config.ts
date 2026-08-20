@@ -8,7 +8,7 @@ export const collections = {
 	docs: defineCollection({
 		loader: createDocsLoader([
 			{
-				dir: fileURLToPath(new URL("../content", import.meta.url)),
+				dir: fileURLToPath(new URL("./content", import.meta.url)),
 				slug: "",
 			},
 		]),
