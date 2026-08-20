@@ -1,6 +1,6 @@
 {
   "name": "@theholocron/monorepo-nextjs-template-ui",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "React component library.",
   "type": "module",
   "exports": {
