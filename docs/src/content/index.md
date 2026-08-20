@@ -20,24 +20,24 @@ All tasks run through [Turborepo](https://turbo.build/repo). The `web` app depen
 
 ## What's Included
 
-| Tool                                                           | Purpose                                                      |
-| -------------------------------------------------------------- | ------------------------------------------------------------ |
-| [Next.js 16](https://nextjs.org)                               | React framework with App Router (`apps/web`)                 |
-| [Vite](https://vitejs.dev)                                     | Component library build (`packages/ui`)                      |
-| [React 19](https://react.dev)                                  | UI framework                                                 |
-| [TypeScript](https://www.typescriptlang.org)                   | Type safety                                                  |
-| [Storybook](https://storybook.js.org)                          | Component development and interaction testing (both apps)    |
-| [Vitest](https://vitest.dev)                                   | Test runner with browser mode (Playwright)                   |
-| [Cypress](https://www.cypress.io)                              | End-to-end and user-flow testing                             |
-| [Chromatic](https://www.chromatic.com)                         | Visual regression (separate tokens per project)              |
-| [MSW](https://mswjs.io)                                        | API mocking                                                  |
-| [Turborepo](https://turbo.build/repo)                          | Monorepo task orchestration                                  |
-| [pnpm workspaces](https://pnpm.io/workspaces)                  | Package management                                           |
-| [ESLint](https://eslint.org)                                   | Linting                                                      |
-| [Stylelint](https://stylelint.io)                              | CSS linting                                                  |
-| [Prettier](https://prettier.io)                                | Formatting                                                   |
-| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | Performance auditing                                         |
-| [semantic-release](https://semantic-release.gitbook.io)        | Automated releases                                           |
+| Tool                                                           | Purpose                                                   |
+| -------------------------------------------------------------- | --------------------------------------------------------- |
+| [Next.js 16](https://nextjs.org)                               | React framework with App Router (`apps/web`)              |
+| [Vite](https://vitejs.dev)                                     | Component library build (`packages/ui`)                   |
+| [React 19](https://react.dev)                                  | UI framework                                              |
+| [TypeScript](https://www.typescriptlang.org)                   | Type safety                                               |
+| [Storybook](https://storybook.js.org)                          | Component development and interaction testing (both apps) |
+| [Vitest](https://vitest.dev)                                   | Test runner with browser mode (Playwright)                |
+| [Cypress](https://www.cypress.io)                              | End-to-end and user-flow testing                          |
+| [Chromatic](https://www.chromatic.com)                         | Visual regression (separate tokens per project)           |
+| [MSW](https://mswjs.io)                                        | API mocking                                               |
+| [Turborepo](https://turbo.build/repo)                          | Monorepo task orchestration                               |
+| [pnpm workspaces](https://pnpm.io/workspaces)                  | Package management                                        |
+| [ESLint](https://eslint.org)                                   | Linting                                                   |
+| [Stylelint](https://stylelint.io)                              | CSS linting                                               |
+| [Prettier](https://prettier.io)                                | Formatting                                                |
+| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | Performance auditing                                      |
+| [semantic-release](https://semantic-release.gitbook.io)        | Automated releases                                        |
 
 ## Getting Started
 
