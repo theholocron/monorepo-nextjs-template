@@ -13,6 +13,9 @@ on: # yamllint disable-line rule:truthy
       - apps/web/.storybook/**
       - packages/ui/src/**
       - packages/ui/.storybook/**
+      - astro.config.ts
+      - pnpm-workspace.yaml
+      - pnpm-lock.yaml
   workflow_dispatch:
 
 concurrency:
