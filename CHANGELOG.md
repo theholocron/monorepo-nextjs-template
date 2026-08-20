@@ -1,3 +1,5 @@
+## [1.2.3](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.2...v1.2.3) (2026-08-20)
+
 ## [1.2.2](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.1...v1.2.2) (2026-08-18)
 
 ## [1.2.1](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.0...v1.2.1) (2026-08-18)
