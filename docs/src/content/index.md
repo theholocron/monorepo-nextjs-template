@@ -1,9 +1,11 @@
 ---
-title: Overview
+title: Monorepo Next.js Template
 description: A monorepo template combining a Next.js application and a Vite component library, with Storybook, Cypress, Chromatic, and full CI/CD.
+sidebar:
+  hidden: true
 ---
 
-A pnpm workspace monorepo for `@theholocron` projects that need a Next.js application (`apps/web`) alongside a shared component library (`packages/ui`).
+`@theholocron/monorepo-nextjs-template` is an opinionated monorepo starter combining a Next.js app (`apps/web`) and a React component library (`packages/ui`). It ships with a full development, testing, and release pipeline ready to go.
 
 ## Structure
 
@@ -16,26 +18,28 @@ packages/
 
 All tasks run through [Turborepo](https://turbo.build/repo). The `web` app depends on `ui` — `turbo build` ensures `ui` is compiled before `web`.
 
-## What's included
+## What's Included
 
-- **Next.js 16** with TypeScript and App Router (`apps/web`)
-- **Vite** component library build with `packages/ui`
-- **React 19** shared across both workspaces
-- **Storybook** in both `apps/web` and `packages/ui`, built into `_site/sandbox/web/` and `_site/sandbox/ui/` on deploy
-- **Vitest** with browser mode (Playwright + Chromium) for Storybook interaction tests
-- **Cypress** for end-to-end and user-flow testing against the Next.js dev server
-- **Chromatic** visual regression testing (separate tokens per project: `CHROMATIC_PROJECT_TOKEN_WEB`, `CHROMATIC_PROJECT_TOKEN_UI`)
-- **MSW** for API mocking in tests and Storybook
-- **Turborepo** for task orchestration across workspaces
-- **pnpm workspaces** for dependency management
-- Shared config via `@theholocron/eslint-config`, `@theholocron/tsconfig`, `@theholocron/prettier-config`, `@theholocron/vitest-config`, `@theholocron/storybook-config`
-- Semantic release via `@theholocron/semantic-release-config`
-- Husky + lint-staged via `@theholocron/lint-staged-config`
-- Full CI/CD via reusable workflows in `theholocron/.github`
+| Tool                                                           | Purpose                                                      |
+| -------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Next.js 16](https://nextjs.org)                               | React framework with App Router (`apps/web`)                 |
+| [Vite](https://vitejs.dev)                                     | Component library build (`packages/ui`)                      |
+| [React 19](https://react.dev)                                  | UI framework                                                 |
+| [TypeScript](https://www.typescriptlang.org)                   | Type safety                                                  |
+| [Storybook](https://storybook.js.org)                          | Component development and interaction testing (both apps)    |
+| [Vitest](https://vitest.dev)                                   | Test runner with browser mode (Playwright)                   |
+| [Cypress](https://www.cypress.io)                              | End-to-end and user-flow testing                             |
+| [Chromatic](https://www.chromatic.com)                         | Visual regression (separate tokens per project)              |
+| [MSW](https://mswjs.io)                                        | API mocking                                                  |
+| [Turborepo](https://turbo.build/repo)                          | Monorepo task orchestration                                  |
+| [pnpm workspaces](https://pnpm.io/workspaces)                  | Package management                                           |
+| [ESLint](https://eslint.org)                                   | Linting                                                      |
+| [Stylelint](https://stylelint.io)                              | CSS linting                                                  |
+| [Prettier](https://prettier.io)                                | Formatting                                                   |
+| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | Performance auditing                                         |
+| [semantic-release](https://semantic-release.gitbook.io)        | Automated releases                                           |
 
-## Getting started
-
-Use the [Holocron CLI](https://github.com/theholocron/holocron) to scaffold a new project from this template:
+## Getting Started
 
 ```bash
 npx @theholocron/cli new monorepo-nextjs my-app \
@@ -44,6 +48,8 @@ npx @theholocron/cli new monorepo-nextjs my-app \
   --vault doppler \
   --agent claude
 ```
+
+See [Getting Started](./getting-started) for the full walkthrough including manual setup and available scripts.
 
 ## Development
 
@@ -60,5 +66,18 @@ To work on a single workspace:
 
 ```bash
 pnpm --filter web dev
-pnpm --filter ui build:storybook
+pnpm --filter ui start:storybook
 ```
+
+## Workspaces
+
+| Workspace     | Package                        | Description             |
+| ------------- | ------------------------------ | ----------------------- |
+| `apps/web`    | `monorepo-nextjs-template-web` | Next.js application     |
+| `packages/ui` | `monorepo-nextjs-template-ui`  | React component library |
+
+## Quick links
+
+- [Getting started](./getting-started) — scaffold a new project with the Holocron CLI
+- [Web app](./web) — the Next.js application workspace
+- [UI library](./ui) — the React component library workspace

@@ -6,7 +6,20 @@ export default defineConfig({
 	docs: {
 		name: "Monorepo Next.js Template",
 		github: "monorepo-nextjs-template",
-		sidebar: [{ label: "Overview", slug: "" }],
+		sidebar: [
+			{ label: "Overview", slug: "" },
+			{
+				label: "Guide",
+				items: [{ label: "Getting Started", slug: "getting-started" }],
+			},
+			{
+				label: "Workspaces",
+				items: [
+					{ label: "Web App", slug: "web" },
+					{ label: "UI Library", slug: "ui" },
+				],
+			},
+		],
 	},
 	starlight,
 	docsTheme,
