@@ -13,9 +13,6 @@ const config: Linter.Config[] = [
 				tsconfigRootDir: dirname(fileURLToPath(import.meta.url)),
 			},
 		},
-		rules: {
-			"n/no-unpublished-import": "off",
-		},
 	},
 	{
 		files: ["**/*.cjs"],
