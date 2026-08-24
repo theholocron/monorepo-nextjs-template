@@ -95,6 +95,7 @@ tsconfig.tsbuildinfo
 
 # Astro (generated)
 docs/.astro/
+.astro/
 
 # Storybook
 *storybook.log
