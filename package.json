@@ -2,6 +2,21 @@
   "name": "@theholocron/monorepo-nextjs-template",
   "version": "1.2.5",
   "private": true,
+  "description": "A modern Next.js + React component library template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid application development.",
+  "keywords": [
+    "monorepo",
+    "nextjs",
+    "pnpm",
+    "react",
+    "template",
+    "typescript",
+    "vite"
+  ],
+  "homepage": "https://docs.theholocron.dev/monorepo-nextjs-template/",
+  "bugs": "https://github.com/theholocron/monorepo-nextjs-template/issues",
+  "repository": "theholocron/monorepo-nextjs-template",
+  "license": "GPL-3.0",
+  "author": "Newton Koumantzelis",
   "type": "module",
   "scripts": {
     "audit": "knip",
@@ -62,5 +77,12 @@
   "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22.0.0"
-  }
+  },
+  "pnpm": {
+    "overrides": {
+      "@commitlint/config-conventional>conventional-changelog-conventionalcommits": "7"
+    }
+  },
+  "releases": "https://github.com/theholocron/monorepo-nextjs-template/releases",
+  "wiki": "https://github.com/theholocron/monorepo-nextjs-template/wiki"
 }
