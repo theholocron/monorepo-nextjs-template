@@ -12,7 +12,18 @@
     "typescript",
     "vite"
   ],
+  "homepage": "https://docs.theholocron.dev/monorepo-nextjs-template/",
+  "bugs": "https://github.com/theholocron/monorepo-nextjs-template/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theholocron/monorepo-nextjs-template.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Newton Koumantzelis",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "audit": "knip",
     "build": "turbo run build",
@@ -72,5 +83,15 @@
   "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22.0.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "pnpm": {
+    "overrides": {
+      "@commitlint/config-conventional>conventional-changelog-conventionalcommits": "7"
+    }
+  },
+  "releases": "https://github.com/theholocron/monorepo-nextjs-template/releases",
+  "wiki": "https://github.com/theholocron/monorepo-nextjs-template/wiki"
 }
