@@ -74,4 +74,3 @@ pnpm lint             # ESLint in each workspace
 Releases are automated via [semantic-release](https://semantic-release.gitbook.io) on push to `main`. See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
 <!-- /holocron:releases -->
-
