@@ -31,6 +31,8 @@ This will:
 
 ## Development
 
+<!-- holocron:development -->
+
 This repo uses [pnpm workspaces](https://pnpm.io/workspaces) with [Turborepo](https://turbo.build/repo) for task orchestration.
 
 ```bash
@@ -41,6 +43,8 @@ pnpm test:coverage    # run tests with coverage
 pnpm typecheck        # tsc --noEmit in each workspace
 pnpm lint             # ESLint in each workspace
 ```
+
+<!-- /holocron:development -->
 
 ## What's Included
 
@@ -65,8 +69,8 @@ pnpm lint             # ESLint in each workspace
 
 ## Releases
 
+<!-- holocron:releases -->
+
 Releases are automated via [semantic-release](https://semantic-release.gitbook.io) on push to `main`. See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
-## Documentation
-
-https://docs.theholocron.dev/monorepo-nextjs-template/
+<!-- /holocron:releases -->
