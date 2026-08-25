@@ -75,6 +75,3 @@ Releases are automated via [semantic-release](https://semantic-release.gitbook.i
 
 <!-- /holocron:releases -->
 
-## Documentation
-
-https://docs.theholocron.dev/monorepo-nextjs-template/
