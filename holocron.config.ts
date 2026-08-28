@@ -15,7 +15,7 @@ export default defineConfig({
 		topics: ["monorepo", "nextjs", "pnpm", "react", "template", "typescript", "vite"],
 		...repo,
 		requiredChecks: [
-			...repo.requiredChecks,
+			...(repo.requiredChecks ?? []),
 			"Storybook Publish: monorepo-nextjs-template-app",
 			"Storybook Publish: monorepo-nextjs-template_ui",
 			"UI Review: monorepo-nextjs-template-app",
