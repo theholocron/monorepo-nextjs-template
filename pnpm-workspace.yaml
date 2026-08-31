@@ -27,7 +27,7 @@ catalog:
   "@testing-library/react": ^16.3.2
   "@testing-library/user-event": ^14.6.4
   "@theholocron/docs-theme": ^1.4.5
-  "@types/node": ^26.2.0
+  "@types/node": ^26.4.0
   "@types/react": ^19.2.18
   "@types/react-dom": ^19.2.4
   "@vitejs/plugin-react": ^6.0.5
