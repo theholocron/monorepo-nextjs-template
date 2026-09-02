@@ -1,8 +1,8 @@
 import type { HolocronConfig } from "@theholocron/cli";
 import { defineConfig } from "@theholocron/cli";
-import { monorepo, nextjs } from "@theholocron/holocron-config";
+import { compose, monorepo, nextjs, wikiCapability as wiki } from "@theholocron/holocron-config";
 
-const { repo, workflows, providers, org, domain } = monorepo(nextjs());
+const { repo, workflows, providers, org, domain } = compose(monorepo(nextjs()), wiki());
 export default defineConfig({
 	description:
 		"A modern Next.js + React component library template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid application development.",
