@@ -2,10 +2,10 @@
 
 ### Chores
 
-* ⬆️ adopt monorepo(nextjs()) preset ([#32](https://github.com/theholocron/monorepo-nextjs-template/issues/32)) ([6863d18](https://github.com/theholocron/monorepo-nextjs-template/commit/6863d18ab82924fe00165208812b182c49a28ba5))
-* 🔧 ⬆️ bump @theholocron/cli, holocron-config, and holocron-plugin-github to latest ([#33](https://github.com/theholocron/monorepo-nextjs-template/issues/33)) ([d7e4aae](https://github.com/theholocron/monorepo-nextjs-template/commit/d7e4aae4e38ad67dff6f63f8f0f75a801310f752))
-* 🔧 ⬆️ bump @types/node from 26.2.0 to 26.4.1 ([#38](https://github.com/theholocron/monorepo-nextjs-template/issues/38)) ([fa89da2](https://github.com/theholocron/monorepo-nextjs-template/commit/fa89da20852c9f229cf2b497d5172b2f0bd858e6))
-* **deps:** Bump the all-dependencies group across 1 directory with 14 updates ([#36](https://github.com/theholocron/monorepo-nextjs-template/issues/36)) ([022e350](https://github.com/theholocron/monorepo-nextjs-template/commit/022e350d453d52de68a9455df7d3f91c24d4aae4))
+- ⬆️ adopt monorepo(nextjs()) preset ([#32](https://github.com/theholocron/monorepo-nextjs-template/issues/32)) ([6863d18](https://github.com/theholocron/monorepo-nextjs-template/commit/6863d18ab82924fe00165208812b182c49a28ba5))
+- 🔧 ⬆️ bump @theholocron/cli, holocron-config, and holocron-plugin-github to latest ([#33](https://github.com/theholocron/monorepo-nextjs-template/issues/33)) ([d7e4aae](https://github.com/theholocron/monorepo-nextjs-template/commit/d7e4aae4e38ad67dff6f63f8f0f75a801310f752))
+- 🔧 ⬆️ bump @types/node from 26.2.0 to 26.4.1 ([#38](https://github.com/theholocron/monorepo-nextjs-template/issues/38)) ([fa89da2](https://github.com/theholocron/monorepo-nextjs-template/commit/fa89da20852c9f229cf2b497d5172b2f0bd858e6))
+- **deps:** Bump the all-dependencies group across 1 directory with 14 updates ([#36](https://github.com/theholocron/monorepo-nextjs-template/issues/36)) ([022e350](https://github.com/theholocron/monorepo-nextjs-template/commit/022e350d453d52de68a9455df7d3f91c24d4aae4))
 
 ## [1.2.6](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.5...v1.2.6) (2026-08-26)
 
