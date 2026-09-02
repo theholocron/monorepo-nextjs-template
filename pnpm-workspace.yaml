@@ -72,7 +72,7 @@ catalog:
 
 catalogs:
   configs:
-    "@theholocron/astro-config": ^7.26.0
+    "@theholocron/astro-config": 7.22.2
     "@theholocron/commitlint-config": ^7.26.0
     "@theholocron/eslint-config": ^7.23.2
     "@theholocron/holocron-config": ^7.28.2
