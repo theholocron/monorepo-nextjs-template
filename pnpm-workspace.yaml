@@ -4,7 +4,7 @@ packages:
   - "packages/*"
 
 catalog:
-  "@astrojs/starlight": ^0.41.5
+  "@astrojs/starlight": 0.41.7
   "@chromatic-com/storybook": ^5.3.0
   "@codecov/nextjs-webpack-plugin": ^2.0.1
   "@commitlint/cli": ^21.2.2
@@ -36,7 +36,7 @@ catalog:
   "@vitest/coverage-v8": ^4.1.10
   "@vitest/eslint-plugin": ^1.6.27
   alex: ^11.0.1
-  astro: ^7.2.4
+  astro: 7.2.4
   axe-playwright: ^2.2.2
   conventional-changelog-conventionalcommits: ^10.4.0
   cypress: ^15.20.0
