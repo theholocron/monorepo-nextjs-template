@@ -1,21 +1,27 @@
 import type { HolocronConfig } from "@theholocron/cli";
 import { defineConfig } from "@theholocron/cli";
-import { compose, monorepo, nextjs, wikiCapability as wiki } from "@theholocron/holocron-config";
+import {
+	compose,
+	monorepoCapability as monorepo,
+	nextjsBundle,
+	node,
+	typecheck,
+	wikiCapability as wiki,
+} from "@theholocron/holocron-config";
 
-const { repo, workflows, providers, org, domain } = compose(monorepo(nextjs()), wiki());
+const preset = compose(node(), typecheck(), ...nextjsBundle(), monorepo(), wiki());
 export default defineConfig({
+	...preset,
 	description:
 		"A modern Next.js + React component library template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid application development.",
 	homepage: "https://docs.theholocron.dev/monorepo-nextjs-template/",
-	org,
-	domain,
 	repo: {
 		name: "theholocron/monorepo-nextjs-template",
 		teams: [{ slug: "gatekeepers", permission: "maintain" }],
 		topics: ["monorepo", "nextjs", "pnpm", "react", "template", "typescript", "vite"],
-		...repo,
+		...preset.repo,
 		requiredChecks: [
-			...(repo.requiredChecks ?? []),
+			...(preset.repo.requiredChecks ?? []),
 			"Storybook Publish: monorepo-nextjs-template-app",
 			"Storybook Publish: monorepo-nextjs-template_ui",
 			"UI Review: monorepo-nextjs-template-app",
@@ -34,12 +40,12 @@ export default defineConfig({
 			"codecov/patch/web",
 		],
 		properties: {
-			...repo.properties,
+			...preset.repo.properties,
 			uses_external_packages: false,
 		},
 	},
 	workflows: [
-		...workflows,
+		...preset.workflows,
 		{
 			name: "test",
 			with: {
@@ -73,7 +79,7 @@ export default defineConfig({
 			],
 		},
 	],
-	providers: { ...providers, deployment: "vercel" },
+	providers: { ...preset.providers, deployment: "vercel" },
 	docs: { build: "workflow", https: true },
 	agent: "claude",
 	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
