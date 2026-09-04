@@ -2,7 +2,7 @@
 
 ### Features
 
-* ✨ add wiki/fern docs setup ([#37](https://github.com/theholocron/monorepo-nextjs-template/issues/37)) ([ee1177e](https://github.com/theholocron/monorepo-nextjs-template/commit/ee1177eeb7e8bc55e9cd15eb0dcd34ccb74159c9))
+- ✨ add wiki/fern docs setup ([#37](https://github.com/theholocron/monorepo-nextjs-template/issues/37)) ([ee1177e](https://github.com/theholocron/monorepo-nextjs-template/commit/ee1177eeb7e8bc55e9cd15eb0dcd34ccb74159c9))
 
 ## [1.2.7](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.6...v1.2.7) (2026-09-02)
 
