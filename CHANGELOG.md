@@ -1,3 +1,14 @@
+## [1.4.0](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.3.0...v1.4.0) (2026-09-06)
+
+### Features
+
+* ✨ add wiki navbar links ([#42](https://github.com/theholocron/monorepo-nextjs-template/issues/42)) ([430dda9](https://github.com/theholocron/monorepo-nextjs-template/commit/430dda9180e5d3ba9418468e1895223f3910068d))
+
+### Chores
+
+* ✨ add wiki icon and bump Fern to 5.114.1 ([#40](https://github.com/theholocron/monorepo-nextjs-template/issues/40)) ([8f41949](https://github.com/theholocron/monorepo-nextjs-template/commit/8f419490a60f9cc07c79710a325d4bb58b1a375a))
+* 🗑️ remove orphaned workflow files ([#39](https://github.com/theholocron/monorepo-nextjs-template/issues/39)) ([189f5fb](https://github.com/theholocron/monorepo-nextjs-template/commit/189f5fb911f9aa1c392f334610d99fd90749b645))
+
 ## [1.3.0](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.2.7...v1.3.0) (2026-09-02)
 
 ### Features
