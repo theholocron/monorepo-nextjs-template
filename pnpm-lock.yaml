@@ -230,7 +230,7 @@ catalogs:
       specifier: ^8.68.0
       version: 8.68.0
     vite:
-      specifier: ^8.2.1
+      specifier: ^8.2.2
       version: 8.2.2
     vite-plugin-dts:
       specifier: ^5.0.3
@@ -3685,15 +3685,6 @@ packages:
     peerDependencies:
       '@theholocron/cli': 3.48.0
       '@theholocron/vercel-client': ^1.14.2
-
-  '@theholocron/http-client@1.14.0':
-    resolution: {integrity: sha512-gIA97sbRGGuCPsjP3BC/KCzIvKKnXXlQw9ZnFHJ4FMyQAo6P/AusukIOveRUKQfgBpw8drTVbdsCkLNSmC94mg==}
-    engines: {node: '>=22.0.0'}
-    peerDependencies:
-      vitest: '>=4.0.0'
-    peerDependenciesMeta:
-      vitest:
-        optional: true
 
   '@theholocron/http-client@1.14.2':
     resolution: {integrity: sha512-/E5X+ZQvBJPfvgZ/jpNPT7Z8i5yWbq9DlivrgYoJcPs2RtXmh5m9p5WQGHrR0EXIWV7jfjuuWfh82T7yrkohbg==}
@@ -13828,10 +13819,6 @@ snapshots:
       '@theholocron/cli': 3.48.0(@astrojs/react@5.0.7(@types/node@26.4.1)(@types/react-dom@19.2.4(@types/react@19.2.18))(@types/react@19.2.18)(jiti@2.7.0)(lightningcss@1.33.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))(@astrojs/starlight@0.41.7(@astrojs/markdown-remark@7.2.4)(astro@7.2.4(@astrojs/markdown-remark@7.2.4)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.4.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@5.9.3))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@types/node@26.4.1)(astro@7.2.4(@astrojs/markdown-remark@7.2.4)(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3)(@types/node@26.4.1)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))(dotenv@16.6.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(vitest@4.1.10)
       '@theholocron/vercel-client': 1.6.2(vitest@4.1.10)
 
-  '@theholocron/http-client@1.14.0(vitest@4.1.10)':
-    optionalDependencies:
-      vitest: 4.1.10(@opentelemetry/api@1.9.1)(@types/node@26.4.1)(@vitest/browser-playwright@4.1.10)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.4.1)(typescript@5.9.3))(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))
-
   '@theholocron/http-client@1.14.2(vitest@4.1.10)':
     optionalDependencies:
       vitest: 4.1.10(@opentelemetry/api@1.9.1)(@types/node@26.4.1)(@vitest/browser-playwright@4.1.10)(@vitest/coverage-v8@4.1.10)(jsdom@30.0.1)(msw@2.15.0(@types/node@26.4.1)(typescript@5.9.3))(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))
@@ -13897,7 +13884,7 @@ snapshots:
 
   '@theholocron/vercel-client@1.6.2(vitest@4.1.10)':
     dependencies:
-      '@theholocron/http-client': 1.14.0(vitest@4.1.10)
+      '@theholocron/http-client': 1.14.2(vitest@4.1.10)
     transitivePeerDependencies:
       - vitest
 
