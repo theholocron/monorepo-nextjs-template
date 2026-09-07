@@ -39,7 +39,7 @@ catalog:
   astro: 7.2.4
   axe-playwright: ^2.2.2
   conventional-changelog-conventionalcommits: ^10.4.0
-  cypress: ^15.20.0
+  cypress: ^16.0.0
   eslint: ^10.8.1
   eslint-plugin-cypress: ^7.0.0
   eslint-plugin-n: ^18.2.2
