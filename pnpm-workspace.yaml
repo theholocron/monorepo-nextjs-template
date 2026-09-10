@@ -36,6 +36,7 @@ catalog:
   "@vitest/coverage-v8": ^4.1.10
   "@vitest/eslint-plugin": ^1.6.27
   alex: ^11.0.1
+  "@astrojs/react": ^6.0.0
   astro: 7.2.4
   axe-playwright: ^2.2.2
   conventional-changelog-conventionalcommits: ^10.4.0
