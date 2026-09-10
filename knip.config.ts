@@ -23,6 +23,8 @@ const config: KnipConfig = {
 		},
 	},
 	ignoreDependencies: [
+		// registered as an Astro integration by @theholocron/astro-config — not a direct import
+		"@astrojs/react",
 		// passed as --config arg to lint-staged binary in .husky/pre-commit
 		"@theholocron/lint-staged-config",
 		// loaded at runtime by the holocron plugin system — not a static import
