@@ -9,7 +9,23 @@ import {
 	wikiCapability as wiki,
 } from "@theholocron/holocron-config";
 
-const preset = compose(node(), typecheck(), ...nextjsBundle(), monorepo(), wiki());
+const preset = compose(
+	node(),
+	typecheck(),
+	...nextjsBundle({
+		test: {
+			"wait-on-url": "http://localhost:3000",
+			"run-chromatic": {
+				projects: [
+					{ tokenName: "WEB", workingDir: "apps/web" },
+					{ tokenName: "UI", workingDir: "packages/ui" },
+				],
+			},
+		},
+	}),
+	monorepo(),
+	wiki()
+);
 export default defineConfig({
 	...preset,
 	description:
@@ -46,18 +62,6 @@ export default defineConfig({
 	],
 	tasks: [
 		...preset.tasks,
-		{
-			name: "test",
-			with: {
-				"wait-on-url": "http://localhost:3000",
-				"run-chromatic": {
-					projects: [
-						{ tokenName: "WEB", workingDir: "apps/web" },
-						{ tokenName: "UI", workingDir: "packages/ui" },
-					],
-				},
-			},
-		},
 		{ name: "release", with: { "run-build": true } },
 		"sync",
 		{
