@@ -108,3 +108,7 @@ storybook-static
 /.claude/skills/commit-standards
 /.claude/skills/security-review
 # end managed by holocron setup — skills
+
+# managed by holocron setup — prompts
+/.agents/prompts/
+# end managed by holocron setup — prompts

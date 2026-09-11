@@ -1,6 +1,6 @@
 {
   "name": "@theholocron/monorepo-nextjs-template",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
   "description": "A modern Next.js + React component library template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid application development.",
   "keywords": [
@@ -34,6 +34,7 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@astrojs/react": "catalog:",
     "@astrojs/starlight": "catalog:",
     "@commitlint/cli": "catalog:",
     "@eslint/js": "catalog:",
@@ -68,6 +69,8 @@
     "lint-staged": "catalog:",
     "playwright": "catalog:",
     "prettier": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "semantic-release": "catalog:",
     "sort-package-json": "catalog:",
     "turbo": "catalog:",
