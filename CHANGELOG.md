@@ -1,3 +1,14 @@
+## [1.4.3](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.4.2...v1.4.3) (2026-09-11)
+
+### Bug Fixes
+
+* **codecov:** 🐛 add missing web component for apps/web ([#55](https://github.com/theholocron/monorepo-nextjs-template/issues/55)) ([d056bf5](https://github.com/theholocron/monorepo-nextjs-template/commit/d056bf5c095ad3879a7024bedd44b956b17ea996)), closes [#45](https://github.com/theholocron/monorepo-nextjs-template/issues/45) [theholocron/holocron#669](https://github.com/theholocron/holocron/issues/669)
+
+### Chores
+
+* 🔧 sync from holocron.config ([#52](https://github.com/theholocron/monorepo-nextjs-template/issues/52)) ([10dbc2a](https://github.com/theholocron/monorepo-nextjs-template/commit/10dbc2a8de1edc29595196dd0782548430c9dce8))
+* **deps:** Bump astro from 7.2.4 to 7.2.8 in the security-patches group across 1 directory ([#48](https://github.com/theholocron/monorepo-nextjs-template/issues/48)) ([88eb50a](https://github.com/theholocron/monorepo-nextjs-template/commit/88eb50a2e67bdad4a3848a5e37c9c15573a3fdb0))
+
 ## [1.4.2](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.4.1...v1.4.2) (2026-09-11)
 
 ### Chores
