@@ -233,7 +233,7 @@ catalogs:
       specifier: ^8.68.0
       version: 8.68.0
     vite:
-      specifier: ^8.2.1
+      specifier: ^8.2.2
       version: 8.2.2
     vite-plugin-dts:
       specifier: ^5.0.3
