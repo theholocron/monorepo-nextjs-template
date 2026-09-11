@@ -2,7 +2,7 @@
 
 ### Chores
 
-* **deps:** Bump vite from 7.3.6 to 8.2.2 ([#45](https://github.com/theholocron/monorepo-nextjs-template/issues/45)) ([0a6060b](https://github.com/theholocron/monorepo-nextjs-template/commit/0a6060b69d3aa21c37eac765ccc072a41d540516))
+- **deps:** Bump vite from 7.3.6 to 8.2.2 ([#45](https://github.com/theholocron/monorepo-nextjs-template/issues/45)) ([0a6060b](https://github.com/theholocron/monorepo-nextjs-template/commit/0a6060b69d3aa21c37eac765ccc072a41d540516))
 
 ## [1.4.1](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.4.0...v1.4.1) (2026-09-11)
 
