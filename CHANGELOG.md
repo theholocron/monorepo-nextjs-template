@@ -1,3 +1,14 @@
+## [1.4.1](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.4.0...v1.4.1) (2026-09-11)
+
+### Bug Fixes
+
+* **hooks:** 🐛 scope pre-commit GitLeaks scan to staged changes ([#53](https://github.com/theholocron/monorepo-nextjs-template/issues/53)) ([885351e](https://github.com/theholocron/monorepo-nextjs-template/commit/885351ef0b305b385d5ccf84808a20abcfa6b666))
+
+### Chores
+
+* ⬆️ migrate to @theholocron/cli 4.16.2 + holocron-config 8.x ([#49](https://github.com/theholocron/monorepo-nextjs-template/issues/49)) ([d4306df](https://github.com/theholocron/monorepo-nextjs-template/commit/d4306df9c1fbde52d1141984545073f926e6fcbd)), closes [#647](https://github.com/theholocron/monorepo-nextjs-template/issues/647) [#652](https://github.com/theholocron/monorepo-nextjs-template/issues/652) [theholocron/configs#450](https://github.com/theholocron/configs/issues/450) [#647](https://github.com/theholocron/monorepo-nextjs-template/issues/647)
+* 🔧 holocron setup — ruleset + workflow/config sync ([#51](https://github.com/theholocron/monorepo-nextjs-template/issues/51)) ([541a87b](https://github.com/theholocron/monorepo-nextjs-template/commit/541a87bb4568b94ab9027b25f58218249a3821d8)), closes [#647](https://github.com/theholocron/monorepo-nextjs-template/issues/647) [#649](https://github.com/theholocron/monorepo-nextjs-template/issues/649) [#649](https://github.com/theholocron/monorepo-nextjs-template/issues/649) [#647](https://github.com/theholocron/monorepo-nextjs-template/issues/647)
+
 ## [1.4.0](https://github.com/theholocron/monorepo-nextjs-template/compare/v1.3.0...v1.4.0) (2026-09-06)
 
 ### Features
