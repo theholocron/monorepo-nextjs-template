@@ -37,7 +37,7 @@ catalog:
   "@vitest/eslint-plugin": ^1.6.27
   alex: ^11.0.1
   "@astrojs/react": ^6.0.0
-  astro: 7.2.4
+  astro: 7.2.8
   axe-playwright: ^2.2.2
   conventional-changelog-conventionalcommits: ^10.4.0
   cypress: ^15.20.0
