@@ -15,7 +15,7 @@
   "homepage": "https://docs.theholocron.dev/monorepo-nextjs-template/",
   "bugs": "https://github.com/theholocron/monorepo-nextjs-template/issues",
   "repository": "theholocron/monorepo-nextjs-template",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": "Newton Koumantzelis",
   "type": "module",
   "scripts": {

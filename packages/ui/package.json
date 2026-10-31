@@ -8,7 +8,7 @@
     "storybook",
     "typescript"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "sideEffects": false,
   "type": "module",
   "exports": {
